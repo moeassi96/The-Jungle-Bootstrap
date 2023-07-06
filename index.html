@@ -10,13 +10,13 @@
 </head>
 <body style="background-image: url(src/imgs/jungle.jpg );">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-            <a class="navbar-brand fs-1 text-white" href="#"><span class="fs-3">Welcome to</span>The jungle</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <a class="navbar-brand fs-1 text-white col-lg-4" href="#">Welcome to The jungle</a>
+            
+            <h3 class="navbar-brand fs-3 text-white col-lg-4 mt-3" href="#" style="padding-left: 20px;">Connect with other Homosapeins!!</h3>
+            
+            <div class="collapse navbar-collapse d-flex justify-content-end col-lg-3" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active fs-3 text-white" aria-current="page" href="#">Sign In</a>
@@ -82,29 +82,36 @@
                                 <h4 class="modal-title">Sign Up</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body border-0">
                                 <form class="mt-1">
                     
                                     <div class="mx-2">
-                                      <input type="name" id="#" class="form-control form-control-lg"/>
-                                      <label class="form-label" for="#">User Name</label>
-                                    </div>
-                                    
-                                    <div class="mx-2">
-                                      <input type="email" id="#" class="form-control form-control-lg" />
-                                      <label class="form-label" for="#">Email Address</label>
+                                        <label class="form-label" for="#">User Name</label>
+                                        <input type="name" id="#" class="form-control form-control-lg"/>
                                     </div>
 
                                     <div class="mx-2">
-                                      <input type="password" id="#" class="form-control form-control-lg" />
-                                      <label class="form-label" for="#">Password</label>
+                                        <label class="form-label" for="#">Phone number</label>
+                                        <input type="number" id="#" class="form-control form-control-lg" />
+                                    </div>
+                                    
+                                    <div class="mx-2">
+                                        <label class="form-label" for="#">Email Address</label>
+                                        <input type="email" id="#" class="form-control form-control-lg" />
+                                    </div>
+
+                                    <div class="mx-2">
+                                        <label class="form-label" for="#">Password</label>
+                                        <input type="password" id="#" class="form-control form-control-lg" />
                                     </div>
                                 </form>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #27823f;">Sign Up</button>
-                            </div>
+
+                                <div class="modal-footer border-0">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #27823f;">Sign Up</button>
+                                
+                                </div>
                         </div>
                     </div>
                   </div>
